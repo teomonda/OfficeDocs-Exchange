@@ -43,9 +43,11 @@ Here are a few limitations to be aware of:
 
 - You can migrate a maximum of 500,000 items from a user's mailbox (emails are migrated from newest to oldest).
 
-- The biggest email you can migrate is 35 MB.
+- The biggest email you can migrate is 35 MB.*)
 
 - If you limited the connections to your source email system, it's a good idea to increase them to improve migration performance. Common connection limits include client/server total connections, per-user connections, and IP address connections on either the server or the firewall.
+
+*) The messagge size can be increased to 150 MB, see https://www.microsoft.com/en-us/microsoft-365/blog/2015/04/15/office-365-now-supports-larger-email-messages-up-to-150-mb/.
 
 ## Impact of migration to users
 
